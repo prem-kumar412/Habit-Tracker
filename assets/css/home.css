@@ -1,0 +1,270 @@
+body {
+    background-image: url(../img/routine.jpg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-family: "JetBrains Mono", monospace;
+}
+
+
+/* ---------- styles on welcome page ---------- */
+
+.welcome-title {
+    color: rgb(255 221 208);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(150 70 41);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(94, 79, 74);
+}
+
+
+/* ---------- styles when there are no habits ---------- */
+
+#noHabitText {
+    color: rgb(255 221 208);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+
+/* Button used to open the form */
+
+#open-btn-fixed {
+    background-color: rgb(150 70 41);
+    color: white;
+    font-size: 18px;
+    padding: 12px 10px;
+    border: none;
+    cursor: pointer;
+    top: 50%;
+    left: 40%;
+    opacity: 0.8;
+    position: fixed;
+    width: 250px;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(16, 133, 151);
+}
+
+#open-btn-fixed:hover,
+#open-btn-fixed:focus {
+    transform: translateY(-0.25em);
+}
+
+
+/* The popup form - hidden by default */
+
+.form-popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    text-align: center;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    background-color: #79554899;
+    border-radius: 50px;
+}
+
+.form-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 15px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.form-container input:focus {
+    background-color: #fff;
+    outline: none;
+}
+
+.form-container button {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin-bottom: 10px;
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.form-container #save-btn {
+    background-color: rgb(86 215 35);
+    border-radius: 100px;
+}
+
+.form-container #cancel-btn {
+    background-color: rgb(235 37 17);
+    border-radius: 100px;
+}
+
+
+/* ---------- styles when habits are added ---------- */
+
+#open-btn {
+    margin-top: 30px;
+    left: 15%;
+    position: absolute;
+}
+
+#change-view {
+    margin-top: 30px;
+    left: 75%;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.habit-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(7, 58, 66, 0.7);
+    border-radius: 25px;
+    width: 70%;
+    height: 90px;
+    margin-right: 170px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.habit-title {
+    text-align: center;
+    margin: 35px 35px 0 0;
+    width: 20%;
+}
+
+.day-container {
+    margin-right: 5px;
+}
+
+.calender {
+    display: flex;
+}
+
+.calender p {
+    color: white;
+    margin-right: 30px;
+}
+
+.mark-status {
+    margin-left: 18px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.281);
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.menu i:hover {
+    transform: scale(1.15);
+}
+
+
+/* -- daily view -- */
+
+.daily-view .habit-container {
+    justify-content: space-between;
+}
+
+.habit-desc {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.mark-status-daily {
+    color: white;
+    font-size: 28px;
+    margin-left: 18px;
+    margin-top: 27px;
+}
+
+
+/* CSS for button styling*/
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #95c596;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
