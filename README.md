@@ -16,10 +16,6 @@ Start the application using the following command:
 ```
  npm start 
 ```
-Start the application using the following command:
-```
- npm start 
-```
 Open the application in your web browser by visiting the following URL:
 ```
  http://localhost:3000 
