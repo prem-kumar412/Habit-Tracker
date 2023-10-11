@@ -3,7 +3,7 @@ This is a habit tracker project of Coding Ninjas made using Nodejs, Express, Mon
 # Usage
 Once you have the application up and running, you can start using it by following these steps:
 
-Sing-up/Sign-in into your account.
+. Sing-up/Sign-in into your account.
 Click on the "Add Habit" button to create a new habit.
 Enter the name of the habit you want to track.
 Click on the "Save" button to save the habit.
