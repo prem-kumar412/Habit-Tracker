@@ -1,20 +1,27 @@
 # Habit-Tracker
 This is a habit tracker project of Coding Ninjas made using Nodejs, Express, MongoDB, EJS. User can add multiple habits to their list, and can check their weekly status of habit (done, not done, pending).
 
+### Live Link :
+habit-tracker-by17.onrender.com
+
 ## Installation
 To run this application on your local machine, please follow these steps:
 
 Clone this repository using the following command:
 ```
-$ git clone https://github.com/prem-kumar412/Habit-Tracker.git
+ git clone https://github.com/prem-kumar412/Habit-Tracker.git
 ```
 Install the required dependencies using the following command:
 ```
-$ npm install 
+ npm install 
 ```
 Start the application using the following command:
 ```
-$ npm start / node index.js
+ npm start 
+```
+Start the application using the following command:
+```
+ npm start 
 ```
 Open the application in your web browser by visiting the following URL:
 ```
