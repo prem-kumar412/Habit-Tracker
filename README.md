@@ -43,3 +43,7 @@ The libraries and resources that you used in the development of this project are
 
 ### Live Link :
 https://habit-tracker-by17.onrender.com/
+## Feedback
+
+If you have any feedback, please reach out to us at premaa412@gmail.com
+
