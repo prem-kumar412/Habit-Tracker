@@ -1,9 +1,6 @@
 # Habit-Tracker
 This is a habit tracker project of Coding Ninjas made using Nodejs, Express, MongoDB, EJS. User can add multiple habits to their list, and can check their weekly status of habit (done, not done, pending).
 
-### Live Link :
-habit-tracker-by17.onrender.com
-
 ## Installation
 To run this application on your local machine, please follow these steps:
 
@@ -43,3 +40,6 @@ Open the application in your web browser by visiting the following URL:
 
  # Acknowledgements
 The libraries and resources that you used in the development of this project are Visual Studio Code and MongoDB Cloud database finally with render for deployment.
+
+### Live Link :
+https://habit-tracker-by17.onrender.com/
