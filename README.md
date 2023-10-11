@@ -1,17 +1,25 @@
 # Habit-Tracker
 This is a habit tracker project of Coding Ninjas made using Nodejs, Express, MongoDB, EJS. User can add multiple habits to their list, and can check their weekly status of habit (done, not done, pending).
 
-# Installation and Run 
-  Follow these steps:
-  - Get the code on your system.
-  - Open terminal on your pc and navigate to the root directory of the project.
-  - Run "npm install" command inside the terminal to install all the required dependencies.
-  - Create a '.env' file inside root directory and define values for
-      - PORT ( port on which your project will run )
-      - MONGODB_URL ( URL of your mongoDB database for connecting to database )
-  - Run 'npm start' command inside terminal to run the code.
-  - Open your web browser and serach for 'localhost:{PORT}/' to see the output.
+## Installation
+To run this application on your local machine, please follow these steps:
 
+Clone this repository using the following command:
+```
+$ git clone https://github.com/prem-kumar412/Habit-Tracker.git
+```
+Install the required dependencies using the following command:
+```
+$ npm install 
+```
+Start the application using the following command:
+```
+$ npm start / node index.js
+```
+Open the application in your web browser by visiting the following URL:
+```
+$ http://localhost:3000 
+```
 # Features
   - View list of all the habits.
   - Add a new habit.
