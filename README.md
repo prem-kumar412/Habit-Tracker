@@ -25,7 +25,7 @@ Start the application using the following command:
 ```
 Open the application in your web browser by visiting the following URL:
 ```
-$ http://localhost:3000 
+ http://localhost:3000 
 ```
 # Features
   - View list of all the habits.
@@ -40,3 +40,6 @@ $ http://localhost:3000
   - MongoDB
   - EJS
   - CSS
+
+ # Acknowledgements
+The libraries and resources that you used in the development of this project are Visual Studio Code and MongoDB Cloud database finally with render for deployment.
