@@ -1,6 +1,6 @@
 # Habit-Tracker
 This is a habit tracker project of Coding Ninjas made using Nodejs, Express, MongoDB, EJS. User can add multiple habits to their list, and can check their weekly status of habit (done, not done, pending).
-#Usage
+# Usage
 Once you have the application up and running, you can start using it by following these steps:
 
 Sing-up/Sign-in into your account.
