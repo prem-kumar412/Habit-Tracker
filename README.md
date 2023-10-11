@@ -34,7 +34,12 @@ Open the application in your web browser by visiting the following URL:
   - EJS
   - CSS
  # Use of Docker
-    use this files that ##### 'dockerfile' ##### 'render.yml'
+ ##### Into the project directory
+
+`cd habit-tracker`
+`npm install`
+
+    use this files that 'dockerfile'  'render.yml'
     Open this github link for docker 
 ```
  https://github.com/peeyush-es/deploy-test
